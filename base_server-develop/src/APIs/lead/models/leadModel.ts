@@ -14,7 +14,7 @@ const LeadSchema = new Schema<ILead>(
     phone: { type: String },
     email: { type: String,unique:true },
     leadSource: { type: String, required: true },
-    status: { type: String, required: true, enum: ['New', 'In Progress', 'Closed'] }
+    status: { type: String, required: true, enum: ['New', 'In Progress', 'Closed',"Qualified"] }
   },
   {
     timestamps: true // Enable timestamps
