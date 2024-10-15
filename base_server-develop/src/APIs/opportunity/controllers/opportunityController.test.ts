@@ -1,5 +1,4 @@
 // opportunityController.test.ts
-
 import { Request, Response } from 'express';
 import { createOpportunity } from '../controllers/opportunityController';
 import opportunityService from '../services/opportunityService';
@@ -62,4 +61,4 @@ describe('Opportunity Controller', () => {
 
     expect(nextFunction).toHaveBeenCalledWith(error);
   });
-});
+}); 
