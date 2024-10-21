@@ -15,8 +15,8 @@ app.use(cookieParser())
 app.use(
     cors({
         methods: ['GET', 'POST', 'DELETE', 'OPTIONS', 'HEAD', 'PUT', 'PATCH'],
-        origin: ['https://xyz.com'],
-        credentials: true
+        origin: ['http://localhost:3001'],
+        credentials: truen
     })
 )
 app.use(express.json())
@@ -33,3 +33,4 @@ app.use(notFound)
 app.use(errorHandler)
 
 export default app
+

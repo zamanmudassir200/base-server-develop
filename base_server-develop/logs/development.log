@@ -19841,3 +19841,565 @@
         "SERVER_URL": "http://localhost:3000"
     }
 }
+{
+    "level": "INFO",
+    "timestamp": "2024-10-16T06:26:40.787Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-16T06:26:40.807Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-16T06:26:40.810Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-16T06:31:28.350Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-16T06:31:28.363Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-16T06:31:28.365Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-16T06:37:52.354Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-16T06:37:52.367Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-16T06:37:52.369Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-16T06:38:09.460Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-16T06:38:09.471Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-16T06:38:09.475Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-16T06:38:27.332Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-16T06:38:27.341Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-16T06:38:27.343Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-16T06:40:25.944Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-16T06:40:25.959Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-16T06:40:25.964Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-16T06:43:58.233Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-16T06:43:58.268Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-16T06:43:58.274Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-10-17T04:10:35.506Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": null,
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\Base server\\base_server-develop\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (D:\\Base server\\base_server-develop\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:519:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (D:\\Base server\\base_server-develop\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-10-17T04:10:35.830Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\Base server\\base_server-develop\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (D:\\Base server\\base_server-develop\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:519:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (D:\\Base server\\base_server-develop\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-10-17T04:10:35.886Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\Base server\\base_server-develop\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (D:\\Base server\\base_server-develop\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:519:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (D:\\Base server\\base_server-develop\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-10-17T04:10:38.909Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\Base server\\base_server-develop\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (D:\\Base server\\base_server-develop\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:519:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (D:\\Base server\\base_server-develop\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-10-17T04:10:39.769Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/favicon.ico"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\Base server\\base_server-develop\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (D:\\Base server\\base_server-develop\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:519:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (D:\\Base server\\base_server-develop\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-18T07:00:59.066Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-18T07:00:59.082Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-18T07:00:59.084Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-10-18T07:22:05.329Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/api/leads/leads"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\Base server\\base_server-develop\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (D:\\Base server\\base_server-develop\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:519:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (D:\\Base server\\base_server-develop\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-10-18T07:22:15.467Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/api/leads/leads"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\Base server\\base_server-develop\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (D:\\Base server\\base_server-develop\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:519:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (D:\\Base server\\base_server-develop\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-10-18T07:22:18.869Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/api/leads/leads"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\Base server\\base_server-develop\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (D:\\Base server\\base_server-develop\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:519:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (D:\\Base server\\base_server-develop\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-10-18T07:22:23.971Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/api/leads/leads"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\Base server\\base_server-develop\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (D:\\Base server\\base_server-develop\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:519:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (D:\\Base server\\base_server-develop\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-10-18T07:22:35.557Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/api/leads/leads"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\Base server\\base_server-develop\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (D:\\Base server\\base_server-develop\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:519:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (D:\\Base server\\base_server-develop\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-10-18T07:22:39.019Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/api/leads/leads"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\Base server\\base_server-develop\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (D:\\Base server\\base_server-develop\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:519:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (D:\\Base server\\base_server-develop\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-10-18T07:22:46.597Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/api/leads/leads"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\Base server\\base_server-develop\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (D:\\Base server\\base_server-develop\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:519:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (D:\\Base server\\base_server-develop\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-10-18T07:22:56.931Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/api/leads/leads"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\Base server\\base_server-develop\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (D:\\Base server\\base_server-develop\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:519:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (D:\\Base server\\base_server-develop\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-10-18T07:23:14.064Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/api/leads/leads"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\Base server\\base_server-develop\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (D:\\Base server\\base_server-develop\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:519:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (D:\\Base server\\base_server-develop\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-10-18T07:23:21.987Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/api/leads/leads"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\Base server\\base_server-develop\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (D:\\Base server\\base_server-develop\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:519:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (D:\\Base server\\base_server-develop\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-10-18T07:23:30.599Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/api/leads/leads"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\Base server\\base_server-develop\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (D:\\Base server\\base_server-develop\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:519:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (D:\\Base server\\base_server-develop\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-10-18T07:23:34.941Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/api/leads/leads"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\Base server\\base_server-develop\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (D:\\Base server\\base_server-develop\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:519:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (D:\\Base server\\base_server-develop\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-10-18T07:23:40.460Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/api/leads/leads"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\Base server\\base_server-develop\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Base server\\base_server-develop\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (D:\\Base server\\base_server-develop\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:519:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (D:\\Base server\\base_server-develop\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-18T07:27:09.832Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-18T07:27:09.878Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-18T07:27:09.882Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-18T07:38:07.860Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-18T07:38:07.898Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-18T07:38:07.900Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
