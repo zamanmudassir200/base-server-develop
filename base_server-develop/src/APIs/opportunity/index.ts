@@ -1,8 +1,14 @@
-import { Router } from 'express';
-import { createOpportunity } from './controllers/opportunityController';
+import { Router } from 'express'
+import { createOpportunity, getOpportunities } from './controllers/opportunityController'
+import validateOpportunity from './validations/validateOpportunity'
+import { updateOpportunityStage } from './controllers/pipelineController'
 
-const router = Router();
+const router = Router()
 
-router.post('/', createOpportunity);
+// POST /opportunities
+router.post('/', validateOpportunity, createOpportunity)
+router.get('/', getOpportunities)
 
-export default router;
+// Route to update opportunity stage
+router.put('/:id', updateOpportunityStage)
+export default router
